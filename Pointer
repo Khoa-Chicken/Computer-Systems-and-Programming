@@ -1,0 +1,9 @@
+- Con trỏ là một biến lưu giá trị địa chỉ của một biến khác.
+- Để con trỏ quản lý một biến thì kiểu dữ liệu của con trỏ và kiểu dữ liệu của biến được con trỏ quản lý phải cùng kiểu dữ liệu với nhau.
+EX1: Khai báo con trỏ trong ngôn ngữ lập trình C 
+#include <stdio.h>
+int main(){
+  int a = 300;
+  int *ctr; // con trỏ đang chứa một giá trị NULL
+  ctr = &a;
+}
